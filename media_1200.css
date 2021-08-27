@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+@media  (max-width: 1200px) {
+    
+    .container {
+        grid-template-columns: minmax(auto, 220px) minmax(auto, 980px);
+        max-width: 1200px;
+        position: relative;
+    } 
+
+     .sidebar {
+         align-items: center;
+         height: 100%;
+     }  
+       .brief_info {
+        width: 286px;
+        height: 400px; 
+        background-color: white;
+        padding-left: 25px;
+        position: absolute;
+        top: 135px;
+        left: 690px;
+        padding: 35px 0 0 25px;
+    }
+    .socialNetworks {
+        width: 210px;
+        height: 75px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+    .houseDimensions .info {
+        height: 240px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .price {
+    width: 210;
+    height: 75px;
+    margin-bottom: 20px;
+    } 
+   .btn_indo {
+    display: inline-flex;
+    width: 255px;
+    height: 66px;
+   }
+
+   /* MAIN   PAGE*/
+
+   /*.page_Content {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+ }*/
+     /* отступы*/
+   .page_Content {
+padding:0;
+ }
+
+ .first_floor:before {
+    top:-36px;
+    left: 50px;
+   }
+   .second_floor:before {
+    top:-30px;
+    left: -20px;
+}
+
+.banner, .complectation  {
+    margin-left: 30px;
+}  
+
+.banner_img {
+     width: 674px;
+     height: 439px;
+     }
+ 
+     .banner .sector_main_imgs {    
+        display: grid;
+        width: 950px;
+        grid-template-columns:  172px 151px 174px 172px;
+        grid-template-rows: 435px 152px 330px;
+        align-items: center; 
+        justify-items: center;
+    }
+
+    .first-floor {
+        justify-items: start;
+    }
+
+    .sector_main_imgs {
+        grid-template-areas:
+          "main main main main"
+          "img1 img2 img3 img4"
+          "first first second second"
+      }
+      .description {
+      width: 234px;
+      height: 181px;
+    }
+
+    /*  Комплектация */
+    .complectation {
+        width: 944px;
+        height: 640px;  
+        margin-bottom: 28px;
+    }
+    .basic_complectation,  .optimal_complectation {
+        width: 457px;
+  
+    }
+
+    .basic_complectation .title, .optimal_complectation .title2 {
+    width: 457px;
+    height: 104px;
+    position: relative;
+}
+
+      /* Доставка */
+.delivery {
+    height: 333px;
+    width: 980px;
+    background-color: #f6f6f6;
+    box-sizing:border-box;
+    overflow: hidden;
+    position: relative;
+}
+.delivery_content {
+    padding-right: 100px;
+    padding-left: 230px;
+}
+
+.project_description {
+    margin: auto;
+    width: 980px;
+}
+.project_description .description {
+width: 933px;
+height: 39px;
+font-size: 16px;
+}
+
+
+
+ .img2, .img4, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13{
+    display: none;
+}
+
+.main_info .houses_built {    
+    width: 850px;
+    height: 490px;
+    display: grid;
+    grid-template-rows: 128px 173px 198px; 
+    grid-template-columns:  257px 539px;     
+    align-items: stretch;
+    margin-bottom: 70px;
+    margin-left: 30px;
+    grid-template-areas: "bT bT bT"
+                         "i1 i5 i5" 
+                         "i3 i5 i5";
+
+}
+ .page_Content .footer {
+     display: none;
+ }
+ 
+
+}
+
+
